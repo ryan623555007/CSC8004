@@ -1,0 +1,79 @@
++/* reset */
++body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,fieldset,legend,button,input,textarea,th,td {margin: 0;padding: 0;}
++body,button,input,select,textarea {font-size: 16px;}
++h1 {font-size: 24px;}
++h2 {font-size: 20px;}
++h3 {font-size: 16px;}
++h4,h5,h6 {font-size: 100%;}
++ul,ol {list-style: none;}
++
++/* common */
++.clearfix {display: block;}
++.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
++body {background-color: #c7c1c1}
++#content {position: relative; margin: 0 auto; padding-top: 50px; min-width: 510px; max-width:960px; background-color: #ffffff;}
++.section {border-top: 10px solid #004b83;}
++h2 {line-height: 60px; color: #004b83;}
++h3 {line-height: 50px; color: #004b83;}
++p {padding: 15px 0; line-height: 18px;}
++.box {float: left; margin: 8px 10px;width: 100px; border:1px solid #666666}
++.box img {display: block;}
++.box p{padding: 0; background-color: #004b83; text-align: center; line-height: 30px; color: #ffffff}
++
++
++/* head */
++.header {position: relative; margin-bottom: 30px; padding: 0 10px; line-height: 60px; color:#004b83;}
++.header img{display: block; position: absolute; right: 10px; top: 4px;}
++
++
++/* navigation */
++#navigation {position: absolute; top: 0; bottom: 0; width: 100%; height: 50px; background-color:#004b83;}
++#navigation a {color: #ffffff; text-decoration: none;}
++#navigation a:hover {text-decoration: none;}
++#navigation >ul {float: right;}
++#navigation >ul >li {float: left; padding: 0 15px;line-height: 50px;}
++#navigation >ul >li:hover {background-color: #3680ac; cursor: pointer;}
++#navigation >ul >li .subnavs {display: none;}
++#navigation >ul >li:hover .subnavs{display: block;}
++
++/* intro */
++#intro {padding: 0 10px;}
++
++/* history */
++#history {padding: 0 10px;}
++#history .history-imgbox {display: block; float: right; margin: 0 0 10px 10px;padding:20px;width: 380px; height:330px; background: url('https://internal.cs.ncl.ac.uk/modules/2017-18/csc8004/bsl/css/420x370-box.png') no-repeat;}
++#history .history-imgbox img {display: block;}
++
++/* linguistics */
++#linguistics { padding: 0 10px 10px 10px;}
++#linguistics .left {float: left; margin-left: 10px; padding: 10px; width: 450px; border: 1px solid #004b83; outline: 1px solid #004b83; outline-offset: 1px;}
++#linguistics .left .left-img {border-bottom: 2px solid #004b83}
++#linguistics .left .left-img img {width: 450px;}
++#linguistics .left .left-img p {text-align: center;}
++#linguistics .left .left-notes {}
++#linguistics .left .left-notes .left-notes-title {margin-top: 5px;padding: 0 10px; line-height: 40px;}
++#linguistics .left .left-notes dl {margin-bottom: 5px; min-height: 20px;}
++#linguistics .left .left-notes dl dt {float: left;}
++#linguistics .left .left-notes dl dd {margin-left: 40px;}
++#linguistics .left .left-notes dl dd p {padding: 2px 0; line-height: 16px; font-size: 14px;}
++#linguistics .right {margin-left: 500px;padding: 0 10px;}
++#linguistics .right p {line-height: 20px;}
++#linguistics .right ul {margin-left: 40px; list-style: disc;}
++#linguistics .right ul li {line-height: 20px;}
++
++/* bsl */
++#bsl .basic {padding: 0 10px;}
++#bsl .basic .video{float: right; width: 430px; height: 290px; margin-left: 10px;padding: 15px 20px; background: url('https://internal.cs.ncl.ac.uk/modules/2017-18/csc8004/bsl/css/460x320-box.png') no-repeat;}
++#bsl .basic .video p {padding: 10px 0; line-height: 20px; text-align: center;font-size: 14px;}
++#bsl .basic ul {margin-left: 40px; list-style: disc;}
++#bsl .basic ul li {line-height: 20px;}
++
++/* bsl letters */
++#letters {padding: 0 10px;}
++
++/* bsl numbers */
++#numbers {padding: 0 10px;}
++
++/* footer */
++.footer {padding: 0 10px;}
++.footer p{text-align: right;}

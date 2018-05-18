@@ -1,0 +1,408 @@
+#linguistics .graph {
+    float: left;
+    width: 452px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border: 3px double #004b83;
+}
+
+#linguistics .graph > img {
+    width: 432px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#linguistics .graph .caption {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+#linguistics .graph .legend {
+    padding-bottom: 13px;
+    overflow: hidden;
+}
+
+#linguistics .graph .legend .title {
+    margin: 13px 0 10px 10px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+#linguistics .graph .list div {
+    overflow: hidden;
+    clear: both;
+}
+
+#linguistics .graph .legend p {
+    float: left;
+
+    width: 350px;
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0;
+}
+
+#linguistics .graph .legend img {
+    float: left;
+
+    margin-left: 10px;
+}
+/*
+font setting
+ */
+h2 {color: #1a4b7f}
+h3 {font-size: 16px;color: #1a4b7f}
+h4,h5,h6 {font-size: 100%;}
+body{
+    background-color: #c6c1c1;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*
+the main content of the website
+ */
+.contain{
+    width:1000px;
+    position:absolute;
+    left:50%;
+    margin:0 0 0 -500px;
+    background-color: #fff;
+}
+/*
+navigation bacground
+ */
+#nav1{
+    position:fixed;
+    width:1000px;
+    height:50px;
+    background-color:#004b83;
+    top: 0px;
+    bottom:0px;
+}
+/*
+the bacground of options
+ */
+#nav2 {
+    width:43%;
+    margin:auto auto;
+    height:50px;
+    background-color:#1a4b7f;
+    float: right;
+}
+/*
+the options fonts
+ */
+#nav2>ul {
+    position:absolute;
+    list-style-type:none;
+    margin:0;
+    padding:0px;
+}
+/*
+
+ */
+#nav2>ul>li {
+    float:left;
+}
+#nav2>ul>li>a {
+    display:block;
+    line-height:50px;
+    text-decoration:none;
+    color:#fff;
+    text-align:center;
+    font-size:smaller;
+    margin-right: 10px;
+    margin-left:10px;
+}
+#nav2>ul>li:hover {
+    background-color:#0484B3;
+}
+#nav2>ul>li>ul {
+    display:none;
+    list-style-type:none;
+    padding:0px;
+    float:none;background-color:#1a4b7f;
+}
+#nav2>ul>li:hover>ul {
+    display:block;
+}
+#nav2>ul>li>a {
+    text-decoration:none;
+    display:block;
+    line-height:50px;
+    color:#f2f2f2;
+    text-align:center;
+    font-size: smaller;
+}
+
+#nav3{
+    width:185.5px;
+    margin-left:0px;
+    text-align: center;
+}
+#nav3 ul>li>a{
+    width:185.5px;
+    text-decoration:none;
+    color:#f2f2f2;
+    text-align:center;
+    font-size: smaller;
+}
+#nav3 ul>li:hover{
+    background-color:#0484B3;
+}
+.header{
+    position: relative;
+    margin-top: 70px;
+    color:#004b83;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    line-height: 60px;
+}
+.header img {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: -5px;
+}
+
+#intro{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#history{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#linguistics{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#bslcontent{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#letters{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#numbers {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#history .imghistory{
+    display:block;
+    width: 400px;
+    height: 380px;
+    position: relative;
+    float: right;
+    padding:20px;
+    background: url('https://internal.cs.ncl.ac.uk/modules/2017-18/csc8004/bsl/css/420x370-box.png' )no-repeat;}
+#history .imghistory img{position:relative;display: block;
+}
+
+#bsl .video{
+    float:right;
+    height: 320px;
+    width: 430px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    background: url('https://internal.cs.ncl.ac.uk/modules/2017-18/csc8004/bsl/css/460x320-box.png')no-repeat;
+}
+#bsl .video p {
+    padding: 10px 0;
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+#bsl   ul{
+    margin-left: 40px;
+    list-style: disc;
+}
+#bsl  ul li {
+    line-height: 20px;
+}
+#div3>div4{
+    line-height: 10px;
+    color: #004b83;
+    width: 430px;
+}
+
+#div3>.maptitle{
+    font-weight: bold;
+    position: relative;
+    margin-top: 5px;
+    padding: 0 10px;
+    line-height: 40px;
+}
+
+#letters{
+    width: 900px;
+}
+#letters>p{
+    vertical-align: middle;
+    text-align: center;
+}
+#numbers{
+    width: 900px;
+}
+#numbers>p{
+    position: relative;
+    background-color: #1a4b7f;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    bottom: 20px;
+    right: 20px;
+    left: 0px;
+}
+.divtext1{
+    float: right;
+    width: 50%;
+    text-align: left;
+    line-height: 150%;
+}
+.footer{
+    float: right;
+}
+span.tip {
+    color: #cb0735;
+}
+
+#vidMiddle *{
+    position: relative;
+    float:right;
+    vertical-align:middle;
+}
+/*
+Dividing line
+ */
+hr {
+    margin-top:7px;
+    border: 0;
+    background-color: #1a4b7f;
+    height: 10px;
+    width: 1000px;
+}
+
+.outer{
+    /*display: block;*/
+    width: 455px;
+    height: 780px;
+    border-style: double ;
+    /*border-color: #1a4b7f;*/
+    position: relative;
+    top: 3px;
+    left: 3px;
+    right: 3px;
+    bottom: 3px;
+    float: left;
+    margin-bottom: 20px;
+}
+.outer .div3 img {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.outer .div3 .div4{
+    line-height: 10px;
+    color: #004b83;
+    width: 430px;
+}
+.outer p{
+    text-align: center;
+}
+.outer .legend{
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+
+}
+#img2all{
+    /*line-height: 50%;*/
+    position: relative;
+    margin-left: 10px;
+    width: 400px;
+}
+
+#img2all ul li p {
+    align-items: center;
+    font-size: xx-small;
+    position: absolute;
+    left: 10px;
+    width: 340px;
+    display: inline;
+    clear: both;
+    margin-left: 5px;
+
+
+}
+#img2all>ul>li>img{
+    float: left;
+    /*display: block;*/
+    position: relative;
+    height: 10px;
+    margin: 10px;
+}
+.img2all>ul>li{
+    list-style: none;
+   height:20px;
+    position: relative;
+    margin:5px;
+
+
+}
+/*
+the block which is contain first part of figure
+ */
+.imgsign{
+    display:block;
+    float: left;
+    height: 100px;
+    width: 100px;
+    border:1px solid #666;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+.imgsign p{
+    position: relative;
+    background-color: #1a4b7f;
+    width: 102px;
+    line-height: 30px;
+    text-align: center;
+    bottom: 20px;
+    right: 22px;
+    left: -1px;
+    color: #fff;
+    font-size: smaller;}
+/*
+the block which is contain second part of figure
+ */
+.imgsign2{
+    display: block;
+    float: left;
+    height: 100px;
+    width: 100px;
+    border:1px solid #666;
+    margin-bottom: 50px;
+    margin-right: 20px;}
+.imgsign2 p{
+    position:relative;
+    background-color: #1a4b7f;
+    width: 102px;
+    line-height: 30px;
+    text-align: center;
+    left:-1px;
+    bottom: 20px;
+    color: #fff;
+    font-size: smaller;
+}
+
+#linguistics>h2{
+    color: #1a4b7f;
+}
+#linguistics>#outer>#img2all>p{
+    text-align: center;
+}
+

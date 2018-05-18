@@ -1,0 +1,152 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>A BSL Quiz</title>
+    <link rel="stylesheet" type="text/css" href="bsl-QUIZ.css" />
+    <script type="text/javascript" src="validate-QUIZ.js"></script>
+    <style>
+        h1{
+            color:#1a4b7f;
+        }
+        h2{
+            color: #1a4b7f;
+        }
+        #content{
+            top: 0px;
+            height: 50px;
+            width:100%;
+            position:absolute;
+            background-color: #1a4b7f;
+        }
+        .navigation{
+            position: relative;
+            top: 40px;
+            color:#004b83;
+            padding: 0 10px;
+            /*margin-bottom: -20px;*/
+        }
+        .navigation img{
+            display: block;
+            position: relative;
+            float: right;
+            right: 10px;
+            top: -70px;
+        }
+        hr{
+            position: relative;
+            background-color: #1a4b7f;
+            height: 10px;
+            width: 100%;
+            top: -30px;
+            margin-bottom: -30px;
+
+        }
+    </style>
+</head>
+
+
+<body>
+
+<div id="content">
+    <div class="navigation">
+    <h1>Sign Language</h1>
+        <img src="https://internal.cs.ncl.ac.uk/modules/2017-18/csc8004/bsl/css/sign_language.png" alt="sign_language" title="sign_language"/>
+    </div>
+    <div id="quiz">
+
+        <form onsubmit="return validate();" method="post" action="https://internal.cs.ncl.ac.uk/modules/2017-18/csc1026/scripts/formscript.php">
+        <hr />
+            <h2>A Simple Quiz</h2>
+
+            <fieldset>
+                <legend>About You</legend>
+                <p id="UserInfo">What is your name?</p>
+                <div>
+                    <input type="text" name="UserInfo" size="40" />
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>The questions</legend>
+                <ol>
+                    <li>
+                        <p id="Q1">What does this message spell?</p>
+                        <div>
+                            <img src="https://internal.cs.ncl.ac.uk/modules/2017-18/csc1026/bsl/letters/H.png" height="100" width="100" alt="A BSL sign" />
+                            <img src="https://internal.cs.ncl.ac.uk/modules/2017-18/csc1026/bsl/letters/E.png" height="100" width="100" alt="A BSL sign" />
+                            <img src="https://internal.cs.ncl.ac.uk/modules/2017-18/csc1026/bsl/letters/L.png" height="100" width="100" alt="A BSL sign" />
+                            <img src="https://internal.cs.ncl.ac.uk/modules/2017-18/csc1026/bsl/letters/L.png" height="100" width="100" alt="A BSL sign" />
+                            <img src="https://internal.cs.ncl.ac.uk/modules/2017-18/csc1026/bsl/letters/O.png" height="100" width="100" alt="A BSL sign" />
+                            <br />
+                            <select name="Q1">
+                                <option value="">Choose one from the following:</option>
+                                <option value="a">Happy</option>
+                                <option value="b">Hoppy</option>
+                                <option value="c">Hello</option>
+                                <option value="d">Cello</option>
+                            </select>
+                        </div>
+                    </li>
+
+                    <li>
+                        <p id="Q2">Which TWO of the following statements are TRUE?</p>
+                        <div>
+                            <input type="checkbox" name="Q2a" id="Q2a" /> <label for="Q2a">a) Another word for fingerspelling is <b>dactylogy</b></label><br />
+                            <input type="checkbox" name="Q2b" id="Q2b" /> <label for="Q2b">b) The first known school for the deaf was founded in 1670</label><br />
+                            <input type="checkbox" name="Q2c" id="Q2c" /> <label for="Q2c">c) Sign languages are also used by hearing individuals</label><br />
+                            <input type="checkbox" name="Q2d" id="Q2d" /> <label for="Q2d">d) There are only 142 sign languages that exist worldwide</label>
+                        </div>
+                    </li>
+
+                    <li>
+                        <p id="Q3">Which of these images correctly shows the sign for the letter I (India)?</p>
+                        <div>
+                            <input type="radio" name="Q3" id="Q3a" value="a" /> <label for="Q3a">a) <img src="https://internal.cs.ncl.ac.uk/modules/2017-18/csc1026/bsl/letters/O.png" height="100" width="100" alt="A BSL sign" /></label>
+                            <input type="radio" name="Q3" id="Q3b" value="b" /> <label for="Q3b">b) <img src="https://internal.cs.ncl.ac.uk/modules/2017-18/csc1026/bsl/letters/I.png" height="100" width="100" alt="A BSL sign" /></label>
+                            <input type="radio" name="Q3" id="Q3c" value="c" /> <label for="Q3c">c) <img src="https://internal.cs.ncl.ac.uk/modules/2017-18/csc1026/bsl/letters/A.png" height="100" width="100" alt="A BSL sign" /></label>
+                            <input type="radio" name="Q3" id="Q3d" value="d" /> <label for="Q3d">d) <img src="https://internal.cs.ncl.ac.uk/modules/2017-18/csc1026/bsl/letters/U.png" height="100" width="100" alt="A BSL sign" /></label>
+                        </div>
+                    </li>
+
+                    <li>
+                        <p id="Q4">BANZL is the acronym for which sign language family?</p>
+                        <div>
+                            <input type="text" name="Q4" size="40" />
+                        </div>
+                    </li>
+
+                </ol>
+
+                <input type="hidden" name="thisScore" />
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Submit your answers</legend>
+
+                <div>
+                    <input type="submit" value="Submit" /> or <input type="reset" value="Reset" />
+                </div>
+
+            </fieldset>
+
+
+
+
+        </form>
+    </div>
+
+
+    <div id="footer">
+        <p>Answers can be found at <a href="https://en.wikipedia.org/wiki/Sign_language">Wikipedia</a></p>
+    </div>
+
+</div>
+
+</body>
+</html>
+

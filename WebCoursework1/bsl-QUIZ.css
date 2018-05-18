@@ -1,0 +1,36 @@
+h1{
+    color:#1a4b7f;
+}
+h2{
+    color: #1a4b7f;
+}
+#content{
+    top: 0px;
+    height: 50px;
+    width:100%;
+    position:absolute;
+    background-color: #1a4b7f;
+}
+.navigation{
+    position: relative;
+    top: 40px;
+    color:#004b83;
+    padding: 0 10px;
+    /*margin-bottom: -20px;*/
+}
+.navigation img{
+    display: block;
+    position: relative;
+    float: right;
+    right: 10px;
+    top: -70px;
+}
+hr{
+    position: relative;
+    background-color: #1a4b7f;
+    height: 10px;
+    width: 100%;
+    top: -30px;
+    margin-bottom: -30px;
+
+}
